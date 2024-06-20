@@ -5,9 +5,11 @@
   z-index: 1;
   top: 0;
   width: 5rem;
-  height: 100vh;
+  height: calc(100vh - 20px);
+  padding-bottom: 10px;
   box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
-
+  margin: 10px;
+  border-radius: 20px;
   .logo-container {
     display: flex;
     align-items: center;
